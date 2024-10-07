@@ -1,0 +1,65 @@
+.ass {
+  border: 2px solid black; /* Garis tepi hitam */
+  padding: 20px; /* Jarak padding untuk kanan, kiri, atas, dan bawah */
+  margin-left: 100px; /* Memberikan jarak di luar kotak */
+  margin-right: 100px; /* Memberikan jarak di luar kotak */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan halus */
+  border-radius: 8px; /* Membuat sudut-sudut kotak sedikit melengkung */
+  background-color: #f9f9f9; /* Warna background kotak */
+}
+
+.box {
+  width: 80%; /* Lebar kotak 80% dari elemen parent */
+  height: 200px; /* Tinggi kotak ditingkatkan dari 150px ke 200px */
+  background-color: #f0f0f0; /* Warna latar belakang kotak */
+  border: 2px solid black; /* Garis tepi hitam */
+  display: flex;
+  margin-bottom: 20px;
+  position: relative; /* Membuat posisi elemen anak absolute */
+  padding: 20px;
+  align-items: center; /* Pusatkan secara vertikal */
+  border-radius: 8px; /* Membuat sudut melengkung */
+}
+
+.box .fa-icon {
+  position: absolute;
+  left: 20px; /* Posisikan ikon di pojok kiri */
+  font-size: 40px; /* Ukuran ikon */
+}
+
+.box h5 {
+  position: absolute;
+  right: 20px; /* Posisikan teks di pojok kanan */
+  margin: 0;
+}
+
+.text-container {
+  position: absolute;
+  right: -150px; /* Adjust this value based on your layout */
+  top: 0;
+}
+
+.text-container p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .box {
+    height: 150px; /* Sesuaikan tinggi untuk layar kecil */
+  }
+  
+  .box .fa-icon {
+    font-size: 30px; /* Sesuaikan ukuran ikon untuk layar kecil */
+    left: 10px; /* Sesuaikan posisi kiri untuk layar kecil */
+  }
+
+  .box h5 {
+    right: 10px; /* Sesuaikan posisi kanan untuk layar kecil */
+  }
+
+  .text-container {
+    margin-left: 60px; /* Sesuaikan margin untuk layar kecil */
+  }
+}
