@@ -39,8 +39,10 @@ body {
     list-style-type: none;
     display: flex;
     padding: 8px 16px;
-    justify-content: space-around;
+    justify-content: center; /* Mengubah menjadi center untuk memposisikan di tengah */
+    margin: 0 auto; /* Untuk memastikan navbar tetap di tengah */
   }
+  
   
   .navbar li {
     margin: 0 10px;

@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom'; // Mengimpor komp
 import DashboardPage from './pages/DashboardPage'; // Mengimpor halaman Siswa
 import AssemblyProgressChart from './pages/AssemblyProgressChart';
 import NavbarComponent from "./components/NavbarComponent";
+import Map from './pages/Map';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<DashboardPage />} /> {/* Rute untuk halaman login */}
         <Route path="/gate1-4" element={<AssemblyProgressChart />} /> {/* Rute untuk halaman login */}
+        <Route path="/map" element={<Map/>} /> {/* Rute untuk halaman login */}
       </Routes>
     </div>
   );
