@@ -10,34 +10,36 @@ const AssemblyProgressChart = () => {
       <FontAwesomeIcon icon={faWarehouse} style={{ fontSize: '30px' }} />
       <h5>G2</h5>
         <div className='text-container'>
-          <p>Text 1</p>
-          <p>Text 2</p>
-          <p>Text 3</p>
-          <p>Text 4</p>
-          <p>Text 5</p>
+          <h4>In Process ;</h4>
+          <p>-</p>
+          <h4>Today ;</h4>
+          <p>-</p>
+          <p>-</p>
         </div>
       </div>
       <div className='box'>
-        Box 2
+      <FontAwesomeIcon icon={faWarehouse} style={{ fontSize: '30px' }} />
+      <h5>G2</h5>
         <div className='text-container'>
-          <p>Text 1</p>
-          <p>Text 2</p>
-          <p>Text 3</p>
-          <p>Text 4</p>
-          <p>Text 5</p>
+          <h4>In Process ;</h4>
+          <p>-</p>
+          <h4>Today ;</h4>
+          <p>-</p>
+          <p>-</p>
         </div>
       </div>
       <div className='box'>
-        Box 3
+      <FontAwesomeIcon icon={faWarehouse} style={{ fontSize: '30px' }} />
+      <h5>G2</h5>
         <div className='text-container'>
-          <p>Text 1</p>
-          <p>Text 2</p>
-          <p>Text 3</p>
-          <p>Text 4</p>
-          <p>Text 5</p>
+          <h4>In Process ;</h4>
+          <p>-</p>
+          <h4>Today ;</h4>
+          <p>-</p>
+          <p>-</p>
         </div>
       </div>
-    
+     
     </div>
   );
 }
